@@ -11,6 +11,7 @@ public class question12 {
 
         if(greater==a)
         {
+            // just apply pythagorean triplet formula
             return b*b+c*c==a*a;
         }else if(greater==b){
             return a*a+c*c==b*b;

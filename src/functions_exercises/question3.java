@@ -6,7 +6,7 @@ public class question3 {
 //    voting eligibility
     public static String isEligibleForVoting(int age){
         if(age<0)
-            return "age must be greater than 0, invalid input";
+            return "age must be positive.";
         else if(age<=18)
             return "not eligible for voting";
         else

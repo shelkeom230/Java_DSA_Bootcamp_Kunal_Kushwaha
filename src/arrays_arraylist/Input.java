@@ -8,13 +8,14 @@ public class Input {
     public static void main(String[] args) {
 //        array of primitives
         int arr[]=new int[5];
+        // manual array assignment
         arr[0]=543;
         arr[1]=43;
         arr[2]=4;
         arr[3]=54;
         arr[4]=2;
 
-        System.out.println(arr[0]);
+        System.out.println(arr[0]); // print first array value
 
         // take input from user
         Scanner in=new Scanner(System.in);
@@ -22,7 +23,7 @@ public class Input {
             arr[i]=in.nextInt();
         }
 
-        // print it
+        // print array elements
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+" ");
         }
@@ -43,6 +44,7 @@ public class Input {
             str[i]=in.next();
         }
 
+        // print string repr of the array
         System.out.println(Arrays.toString(str));
     }
 }

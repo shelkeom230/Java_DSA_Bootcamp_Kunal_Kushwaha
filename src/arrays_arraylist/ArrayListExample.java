@@ -28,8 +28,7 @@ public class ArrayListExample {
         list.remove(0); // removes 10
 //        System.out.println(list);
     
-        // take input using scanner 
-
+        // take input using scanner
         Scanner in=new Scanner(System.in);
 
         for (int i = 0; i < 5; i++) {
