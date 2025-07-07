@@ -41,6 +41,6 @@ public class Main {
 class Student{
     // properties
     int rno;
-    String name;
+    String name; //String is an object in java.
     float marks=90;
 }

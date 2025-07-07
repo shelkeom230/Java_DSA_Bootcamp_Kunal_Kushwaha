@@ -1,0 +1,8 @@
+class ---> class is a template for creating an object
+---> class is just a wrapper which groups together properties and methods of an object
+---> a class is just an imaginary thing, it does not exist in reality
+
+object ---> object is an instance of a class
+---> it let's you create real world entites by using properties and methods provided by the class
+---> object exists in reality and everytime you create a new object
+, memory is allocated separetly for thats

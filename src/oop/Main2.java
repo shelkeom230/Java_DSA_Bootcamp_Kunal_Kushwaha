@@ -70,7 +70,7 @@ class Student2{
 
     // parametarised constructor
     // Student arpit=new Student(17,"arpit",89);
-    // here this will be replaced with arpit and you will set arpit.properties values
+    // here this will be replaced with arpit and you will set arpit.rno,arpit.name & arpit.marks
     Student2(int rno,String name,float marks){
         this.rno=rno;
         this.name=name;

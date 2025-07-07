@@ -4,7 +4,11 @@ import java.util.ArrayList;
 public class Practice {
     public static void main(String[] args) {
         int arr[] = {3,4,-1,1};
-        System.out.println(find_first_missing_positive(arr));
+//        System.out.println(find_first_missing_positive(arr));
+        Student omkar=new Student();
+        System.out.println(omkar.rno);
+        System.out.println(omkar.name);
+        System.out.println(omkar.marks);
     }
 
     // cyclic sort using for loop
@@ -228,4 +232,11 @@ public class Practice {
         // case 2--> if all numbers from [1--N] are present then N+1 is missing
         return n+1;
     }
+}
+
+// create a class
+class Student{
+    int rno;
+    String name;
+    double marks;
 }
